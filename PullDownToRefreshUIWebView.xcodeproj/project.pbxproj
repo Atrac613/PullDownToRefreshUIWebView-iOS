@@ -15,12 +15,22 @@
 		068BCE4514FBC106004DBDC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068BCE4414FBC106004DBDC9 /* AppDelegate.m */; };
 		068BCE4814FBC106004DBDC9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE4614FBC106004DBDC9 /* MainStoryboard.storyboard */; };
 		068BCE4B14FBC106004DBDC9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068BCE4A14FBC106004DBDC9 /* MasterViewController.m */; };
-		068BCE4E14FBC106004DBDC9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068BCE4D14FBC106004DBDC9 /* DetailViewController.m */; };
 		068BCE5614FBC106004DBDC9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068BCE5514FBC106004DBDC9 /* SenTestingKit.framework */; };
 		068BCE5714FBC106004DBDC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068BCE3414FBC105004DBDC9 /* UIKit.framework */; };
 		068BCE5814FBC106004DBDC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068BCE3614FBC105004DBDC9 /* Foundation.framework */; };
 		068BCE6014FBC106004DBDC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE5E14FBC106004DBDC9 /* InfoPlist.strings */; };
 		068BCE6314FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 068BCE6214FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests.m */; };
+		068BCE6D14FBC11C004DBDC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068BCE6C14FBC11C004DBDC9 /* QuartzCore.framework */; };
+		068BCE7814FBC183004DBDC9 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7014FBC183004DBDC9 /* blackArrow.png */; };
+		068BCE7914FBC183004DBDC9 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7114FBC183004DBDC9 /* blackArrow@2x.png */; };
+		068BCE7A14FBC183004DBDC9 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7214FBC183004DBDC9 /* blueArrow.png */; };
+		068BCE7B14FBC183004DBDC9 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7314FBC183004DBDC9 /* blueArrow@2x.png */; };
+		068BCE7C14FBC183004DBDC9 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7414FBC183004DBDC9 /* grayArrow.png */; };
+		068BCE7D14FBC183004DBDC9 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7514FBC183004DBDC9 /* grayArrow@2x.png */; };
+		068BCE7E14FBC183004DBDC9 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7614FBC183004DBDC9 /* whiteArrow.png */; };
+		068BCE7F14FBC183004DBDC9 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BCE7714FBC183004DBDC9 /* whiteArrow@2x.png */; };
+		068BCE8414FBC18B004DBDC9 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 068BCE8314FBC18B004DBDC9 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		068BCE8A14FBC233004DBDC9 /* PDTRUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068BCE8914FBC233004DBDC9 /* PDTRUIWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +48,34 @@
 		068BCE3414FBC105004DBDC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		068BCE3614FBC105004DBDC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		068BCE3814FBC105004DBDC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		068BCE3C14FBC105004DBDC9 /* PullDownToRefreshUIWebView-Info.plist */ = {isa = PBXFileReference; path = "PullDownToRefreshUIWebView-Info.plist"; sourceTree = "<group>"; };
+		068BCE3C14FBC105004DBDC9 /* PullDownToRefreshUIWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullDownToRefreshUIWebView-Info.plist"; sourceTree = "<group>"; };
 		068BCE3E14FBC105004DBDC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		068BCE4014FBC105004DBDC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		068BCE4214FBC106004DBDC9 /* PullDownToRefreshUIWebView-Prefix.pch */ = {isa = PBXFileReference; path = "PullDownToRefreshUIWebView-Prefix.pch"; sourceTree = "<group>"; };
-		068BCE4314FBC106004DBDC9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		068BCE4214FBC106004DBDC9 /* PullDownToRefreshUIWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullDownToRefreshUIWebView-Prefix.pch"; sourceTree = "<group>"; };
+		068BCE4314FBC106004DBDC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		068BCE4414FBC106004DBDC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		068BCE4714FBC106004DBDC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		068BCE4914FBC106004DBDC9 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		068BCE4914FBC106004DBDC9 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		068BCE4A14FBC106004DBDC9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		068BCE4C14FBC106004DBDC9 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		068BCE4D14FBC106004DBDC9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		068BCE5414FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullDownToRefreshUIWebViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		068BCE5514FBC106004DBDC9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		068BCE5D14FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests-Info.plist */ = {isa = PBXFileReference; path = "PullDownToRefreshUIWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		068BCE5D14FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullDownToRefreshUIWebViewTests-Info.plist"; sourceTree = "<group>"; };
 		068BCE5F14FBC106004DBDC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		068BCE6114FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests.h */ = {isa = PBXFileReference; path = PullDownToRefreshUIWebViewTests.h; sourceTree = "<group>"; };
+		068BCE6114FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullDownToRefreshUIWebViewTests.h; sourceTree = "<group>"; };
 		068BCE6214FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownToRefreshUIWebViewTests.m; sourceTree = "<group>"; };
+		068BCE6C14FBC11C004DBDC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		068BCE7014FBC183004DBDC9 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		068BCE7114FBC183004DBDC9 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		068BCE7214FBC183004DBDC9 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		068BCE7314FBC183004DBDC9 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		068BCE7414FBC183004DBDC9 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		068BCE7514FBC183004DBDC9 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		068BCE7614FBC183004DBDC9 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		068BCE7714FBC183004DBDC9 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		068BCE8214FBC18B004DBDC9 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		068BCE8314FBC18B004DBDC9 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		068BCE8814FBC233004DBDC9 /* PDTRUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTRUIWebViewController.h; sourceTree = "<group>"; };
+		068BCE8914FBC233004DBDC9 /* PDTRUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTRUIWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +86,7 @@
 				068BCE3514FBC105004DBDC9 /* UIKit.framework in Frameworks */,
 				068BCE3714FBC105004DBDC9 /* Foundation.framework in Frameworks */,
 				068BCE3914FBC105004DBDC9 /* CoreGraphics.framework in Frameworks */,
+				068BCE6D14FBC11C004DBDC9 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +110,7 @@
 				068BCE5B14FBC106004DBDC9 /* PullDownToRefreshUIWebViewTests */,
 				068BCE3314FBC105004DBDC9 /* Frameworks */,
 				068BCE3114FBC105004DBDC9 /* Products */,
+				068BCE6E14FBC15D004DBDC9 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,7 @@
 		068BCE3314FBC105004DBDC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				068BCE6C14FBC11C004DBDC9 /* QuartzCore.framework */,
 				068BCE3414FBC105004DBDC9 /* UIKit.framework */,
 				068BCE3614FBC105004DBDC9 /* Foundation.framework */,
 				068BCE3814FBC105004DBDC9 /* CoreGraphics.framework */,
@@ -114,13 +138,14 @@
 		068BCE3A14FBC105004DBDC9 /* PullDownToRefreshUIWebView */ = {
 			isa = PBXGroup;
 			children = (
+				068BCE8014FBC18B004DBDC9 /* View */,
 				068BCE4314FBC106004DBDC9 /* AppDelegate.h */,
 				068BCE4414FBC106004DBDC9 /* AppDelegate.m */,
 				068BCE4614FBC106004DBDC9 /* MainStoryboard.storyboard */,
 				068BCE4914FBC106004DBDC9 /* MasterViewController.h */,
 				068BCE4A14FBC106004DBDC9 /* MasterViewController.m */,
-				068BCE4C14FBC106004DBDC9 /* DetailViewController.h */,
-				068BCE4D14FBC106004DBDC9 /* DetailViewController.m */,
+				068BCE8814FBC233004DBDC9 /* PDTRUIWebViewController.h */,
+				068BCE8914FBC233004DBDC9 /* PDTRUIWebViewController.m */,
 				068BCE3B14FBC105004DBDC9 /* Supporting Files */,
 			);
 			path = PullDownToRefreshUIWebView;
@@ -154,6 +179,47 @@
 				068BCE5E14FBC106004DBDC9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068BCE6E14FBC15D004DBDC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				068BCE6F14FBC183004DBDC9 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		068BCE6F14FBC183004DBDC9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				068BCE7014FBC183004DBDC9 /* blackArrow.png */,
+				068BCE7114FBC183004DBDC9 /* blackArrow@2x.png */,
+				068BCE7214FBC183004DBDC9 /* blueArrow.png */,
+				068BCE7314FBC183004DBDC9 /* blueArrow@2x.png */,
+				068BCE7414FBC183004DBDC9 /* grayArrow.png */,
+				068BCE7514FBC183004DBDC9 /* grayArrow@2x.png */,
+				068BCE7614FBC183004DBDC9 /* whiteArrow.png */,
+				068BCE7714FBC183004DBDC9 /* whiteArrow@2x.png */,
+			);
+			name = images;
+			path = PullDownToRefreshUIWebView/images;
+			sourceTree = "<group>";
+		};
+		068BCE8014FBC18B004DBDC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				068BCE8114FBC18B004DBDC9 /* RefreshTableHeaderView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		068BCE8114FBC18B004DBDC9 /* RefreshTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				068BCE8214FBC18B004DBDC9 /* EGORefreshTableHeaderView.h */,
+				068BCE8314FBC18B004DBDC9 /* EGORefreshTableHeaderView.m */,
+			);
+			path = RefreshTableHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +295,14 @@
 			files = (
 				068BCE3F14FBC105004DBDC9 /* InfoPlist.strings in Resources */,
 				068BCE4814FBC106004DBDC9 /* MainStoryboard.storyboard in Resources */,
+				068BCE7814FBC183004DBDC9 /* blackArrow.png in Resources */,
+				068BCE7914FBC183004DBDC9 /* blackArrow@2x.png in Resources */,
+				068BCE7A14FBC183004DBDC9 /* blueArrow.png in Resources */,
+				068BCE7B14FBC183004DBDC9 /* blueArrow@2x.png in Resources */,
+				068BCE7C14FBC183004DBDC9 /* grayArrow.png in Resources */,
+				068BCE7D14FBC183004DBDC9 /* grayArrow@2x.png in Resources */,
+				068BCE7E14FBC183004DBDC9 /* whiteArrow.png in Resources */,
+				068BCE7F14FBC183004DBDC9 /* whiteArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +340,8 @@
 				068BCE4114FBC105004DBDC9 /* main.m in Sources */,
 				068BCE4514FBC106004DBDC9 /* AppDelegate.m in Sources */,
 				068BCE4B14FBC106004DBDC9 /* MasterViewController.m in Sources */,
-				068BCE4E14FBC106004DBDC9 /* DetailViewController.m in Sources */,
+				068BCE8414FBC18B004DBDC9 /* EGORefreshTableHeaderView.m in Sources */,
+				068BCE8A14FBC233004DBDC9 /* PDTRUIWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
